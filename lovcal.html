@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link href="./icon/icons8-love-16.png" rel="icon" type="image/x-icon" />
+   
+    <!-- <script>
+        
+            var bf = prompt("Enter Your Name");
+            var gf = prompt("Enter Their Name");
+            document.getElementById("p1").innerHTML = 5;
+            document.getElementById("p2").innerHTML = 6;
+            // var loveScore = Math.random() * 100;
+            // loveScore = Math.floor(loveScore) + 1;
+            // document.write(loveScore);
+            // if (bf) {
+            //     document.getElementById("pt").style.color = 'red';
+            // }
+            // else {
+            //     document.getElementById("pt").style.color = 'white';
+            // }
+
+    </script> -->
+<style>
+    #h {
+        text-align: center;
+        /* margin-left: -09%; */
+        color: #2A2F4F;
+    }
+    #p1{
+        
+        display: inline-block;
+        margin-left: 40%;
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+    #p2{
+      display: inline-block;
+      font-size: 30px;
+      text-transform: capitalize;
+
+        
+    }
+    #im{
+        width: 40px;
+        margin-bottom: -15px;
+        padding:5px 5px;
+        
+    }
+    #div1{
+        margin-top: 2px;
+    }
+    /* #pt{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid #E1AEFF;
+
+    } */
+    #hi{
+        text-align: center;
+        /* margin-left: -09%; */
+        color: #2A2F4F;
+    }
+    #num{
+        width: 50px;
+        margin-left: 47%; 
+        /* border: 1px solid red; */
+        font-size:35px;
+        
+    }
+    /* #num1
+    {   display: inline-block;
+        width: 50px;
+        margin-left: 47%; 
+        /* border: 1px solid red; */
+        font-size:35px;
+        
+    }   */
+</style>
+</head>
+
+<body style="background-color:#FDE5EC;">
+    <h2 id="h">&#10084; The Love Calculator Result &#10084;</h2>
+        <h4 id="hi">These are the result of the calculations by Dr. Love</h4>
+     <!-- <div>
+        <p id="pt"> Love Calculate Result <p/>
+     </div> -->
+    <div id="div1">
+    
+        <p id="p1">aditya</p >
+         <img id="im" src=""  alt="">
+        <p id="p2">sarkar</p>
+        </div>
+        <div>
+            <p id="num">89</p>
+            
+        </div>
+        <script>
+
+            var bf = prompt("Enter Your Name");
+            var gf = prompt("Enter Their Name");
+          
+            document.getElementById("p1").innerHTML = bf;
+            document.getElementById("p2").innerHTML = gf;
+            document.getElementById("im").src ="./icon/love-2.png";
+                    var loveScore = Math.random() * 100;
+                    loveScore = Math.floor(loveScore) + 1;
+                    document.getElementById("num").innerHTML = loveScore+"%";
+                  
+                    if (bf) {
+                        document.getElementById("h").style.color = 'red';
+                    }
+                    else {
+                        document.getElementById("h").style.color = '#2A2F4F';
+                    }
+
+        </script>
+    
+</body>
+
+</html>
